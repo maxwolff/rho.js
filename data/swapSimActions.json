@@ -1,0 +1,404 @@
+{
+  "init": {
+    "state": {
+      "protocol": {
+        "activeCollateral": 0,
+        "totalLiquidity": 0,
+        "supplyIndex": 1,
+
+        "notionalReceivingFloat": 0,
+        "notionalPayingFloat": 0,
+
+        "notionalDaysReceivingFloat": 0,
+        "notionalDaysPayingFloat": 0,
+
+        "notionalPayingFixed": 0,
+        "notionalReceivingFixed": 0,
+
+        "avgFixedRatePaying": 0,
+        "avgFixedRateReceiving": 0,
+
+        "fixedToPay": 0,
+        "fixedToReceive": 0,
+
+        "rateFactor": 0,
+
+        "time": 0,
+        "lastFloatIndex": 1,
+        "swaps": [],
+        "liquidityAccounts": {}
+      },
+      "payoutToken": {
+        "lebron": 100,
+        "anthony": 100,
+        "danny": 100,
+        "kentavious": 100,
+        "avery": 100,
+        "javale": 100,
+        "quinn": 100,
+        "alex": 100,
+        "rajon": 100,
+        "kyle": 100,
+        "dwight": 100,
+        "mm": 400
+      },
+      "constants": {
+        "swapDuration": 2,
+        "daysInYear": 365,
+
+        "yOffset": 0.16,
+        "range": 0.085,
+        "slopeFactor": 3,
+
+        "rateFactorSensitivity": 7.5e-5,
+
+        "feeBase": 0.001,
+        "feeMultiplier": 0.003,
+        "targetUtil": 0.8,
+
+        "minCompoundRate": 0,
+        "maxCompoundRate": 0.2,
+        "minPayoutRate": 0.1,
+        "maxPayoutRate": 0.25
+      }
+    },
+    "initDateTime": 1564705324872
+  },
+  "actions": [
+    {
+      "from": "mm",
+      "type": "addLiquidity",
+      "amount": 5,
+      "time": 0.00014568287037037037,
+      "floatIndex": 1.0300755404005766
+    },
+    {
+      "from": "mm",
+      "type": "openReceiveFixedSwap",
+      "amount": 11000,
+      "time": 0.00015708333333333332,
+      "floatIndex": 1.0300755404005766
+    },
+    {
+      "from": "mm",
+      "type": "addLiquidity",
+      "amount": 295,
+      "time": 0.00016730324074074073,
+      "floatIndex": 1.0300755404005766
+    },
+    {
+      "from": "alex",
+      "type": "addLiquidity",
+      "amount": 75,
+      "time": 0.0005065277777777777,
+      "floatIndex": 1.0300784623979358,
+      "check": false
+    },
+    {
+      "from": "danny",
+      "type": "openReceiveFixedSwap",
+      "amount": 35000,
+      "time": 0.0006692476851851852,
+      "floatIndex": 1.0300784623979358,
+      "check": false
+    },
+    {
+      "from": "javale",
+      "type": "addLiquidity",
+      "amount": 100,
+      "time": 0.0010889467592592593,
+      "floatIndex": 1.0300784623979358,
+      "check": false
+    },
+    {
+      "from": "lebron",
+      "type": "addLiquidity",
+      "amount": 10,
+      "time": 0.027763819444444445,
+      "floatIndex": 1.0300855586027016,
+      "check": false
+    },
+    {
+      "from": "alex",
+      "type": "openPayFixedSwap",
+      "amount": 10000,
+      "time": 0.8426297453703704,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "dwight",
+      "type": "openPayFixedSwap",
+      "amount": 10000,
+      "time": 0.8435744444444444,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "danny",
+      "type": "addLiquidity",
+      "amount": 20,
+      "time": 0.8441690277777778,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "danny",
+      "type": "openReceiveFixedSwap",
+      "amount": 35000,
+      "time": 0.8459988425925926,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "anthony",
+      "type": "addLiquidity",
+      "amount": 70,
+      "time": 0.8506284490740741,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "anthony",
+      "type": "openReceiveFixedSwap",
+      "amount": 50000,
+      "time": 0.8514284490740741,
+      "floatIndex": 1.0304625897254316,
+      "check": false
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 2.0587166666666668,
+      "floatIndex": 1.0309559300546742
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 2.0589209375,
+      "floatIndex": 1.0309559300546742
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 3.2076218055555556,
+      "floatIndex": 1.0313963095132261
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 3.2076812037037037,
+      "floatIndex": 1.0313963095132261
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 3.2078494212962965,
+      "floatIndex": 1.0313963095132261
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 3.207928784722222,
+      "floatIndex": 1.0313963095132261
+    },
+    {
+      "from": "avery",
+      "type": "openReceiveFixedSwap",
+      "amount": 80000,
+      "time": 3.76307875,
+      "floatIndex": 1.031639035829177,
+      "check": false
+    },
+    {
+      "from": "anthony",
+      "type": "openReceiveFixedSwap",
+      "amount": 50000,
+      "time": 3.780487488425926,
+      "floatIndex": 1.0316468587436392,
+      "check": false
+    },
+    {
+      "from": "javale",
+      "type": "removeLiquidity",
+      "amount": 25,
+      "time": 3.833905601851852,
+      "floatIndex": 1.0316705928496777,
+      "check": false
+    },
+    {
+      "from": "javale",
+      "type": "openReceiveFixedSwap",
+      "amount": 40000,
+      "time": 3.837973900462963,
+      "floatIndex": 1.0316742365239622,
+      "check": false
+    },
+    {
+      "from": "kentavious",
+      "type": "openPayFixedSwap",
+      "amount": 390000,
+      "time": 4.037675219907407,
+      "floatIndex": 1.0317614327810554,
+      "check": false
+    },
+    {
+      "from": "rajon",
+      "type": "openReceiveFixedSwap",
+      "amount": 165000,
+      "time": 4.047977129629629,
+      "floatIndex": 1.0317659946810087,
+      "check": false
+    },
+    {
+      "from": "avery",
+      "type": "openReceiveFixedSwap",
+      "amount": 20000,
+      "time": 4.055662638888889,
+      "floatIndex": 1.0317698280129286,
+      "check": false
+    },
+    {
+      "from": "quinn",
+      "type": "addLiquidity",
+      "amount": 100,
+      "time": 4.056979074074074,
+      "floatIndex": 1.0317712819782219,
+      "check": false
+    },
+    {
+      "from": "anthony",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 4.753529050925926,
+      "floatIndex": 1.0320781997200927,
+      "check": false
+    },
+    {
+      "from": "anthony",
+      "type": "openReceiveFixedSwap",
+      "amount": 110000,
+      "time": 4.754583912037037,
+      "floatIndex": 1.0320781997200927,
+      "check": false
+    },
+    {
+      "from": "danny",
+      "type": "openReceiveFixedSwap",
+      "amount": 120000,
+      "time": 4.758092592592592,
+      "floatIndex": 1.0320781997200927,
+      "check": false
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.27058855324074,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.270873981481482,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.270950185185185,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.2711194444444445,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.271346412037037,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.271505347222222,
+      "floatIndex": 1.0328012513074336
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.887643530092593,
+      "floatIndex": 1.0330821378144635
+    },
+    {
+      "from": "mm",
+      "type": "closeSwap",
+      "orderNumber": 0,
+      "time": 6.887728726851852,
+      "floatIndex": 1.0330821378144635
+    },
+    {
+      "from": "lebron",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.889573715277778,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    },
+    {
+      "from": "danny",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.8896482407407404,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    },
+    {
+      "from": "javale",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.88973087962963,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    },
+    {
+      "from": "quinn",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.889832569444445,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    },
+    {
+      "from": "alex",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.889916238425926,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    },
+    {
+      "from": "mm",
+      "type": "removeLiquidity",
+      "amount": -1,
+      "time": 6.890001527777778,
+      "floatIndex": 1.0330821378144635,
+      "check": false
+    }
+  ]
+}
