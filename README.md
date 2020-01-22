@@ -1,6 +1,6 @@
 # Rho.js
 
-A javascript reference implementation of an automated market maker interest rate swaps protocol. Includes a scenario test runner and a cli for quick testing. Numbers for integration tests from this [spreadsheet](https://docs.google.com/spreadsheets/d/1TB2Z3tRs5bjWrhqix3-gdbVwpWC7m1a4KeHwgws4Tkg/edit#gid=1157878981), and from a week long test simulation.
+A javascript reference implementation of an automated market maker interest rate swaps protocol. Includes a scenario test runner and a cli for quick testing. Numbers for integration tests from this [spreadsheet](https://docs.google.com/spreadsheets/d/1w2EEdeKWvx7haG0p8vp5h9kBmOGBXVOpb6UTZOOV1io/edit?usp=sharing), and from a week long test simulation.
 
 ## Usage
 
@@ -22,3 +22,8 @@ Runs actions one by one prints intermediate states
 -   `yarn cli apply --type openReceiveFixedSwap --amount 300 --from coburn`
 -   `yarn cli read`
 -   `yarn cli close`
+
+## Resources
+
+-   [Whitepaper](maxcwolff.com/rho.pdf)
+-   [Spec](maxcwolff.com/rhoSpec.pdf)
