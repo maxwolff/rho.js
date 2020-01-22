@@ -1,4 +1,4 @@
-# Rho.js
+# rho.js
 
 A javascript reference implementation of an automated market maker interest rate swaps protocol. Includes a scenario test runner and a cli for quick testing.
 
