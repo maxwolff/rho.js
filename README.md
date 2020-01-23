@@ -25,6 +25,7 @@ Runs actions one by one prints intermediate states
 
 ## Resources
 
--   [Whitepaper](maxcwolff.com/rho.pdf)
--   [Spec](maxcwolff.com/rhoSpec.pdf)
+-   [Whitepaper](http://maxcwolff.com/rho.pdf)
+-   [Spec](http://maxcwolff.com/rhoSpec.pdf)
 -   [Spreadsheet](https://docs.google.com/spreadsheets/d/1w2EEdeKWvx7haG0p8vp5h9kBmOGBXVOpb6UTZOOV1io/edit?usp=sharing)
+-   [Interest Rate Model](https://observablehq.com/d/8a889476c0bddfff)
